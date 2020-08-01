@@ -107,7 +107,7 @@ document.querySelector(".btn-hold").addEventListener("click", function () {
     document.getElementById("score-" + activePlayer).textContent =
       scores[activePlayer];
     // Тоглогч хожсон эсэхийг шалгах
-    if (scores[activePlayer] > 30) {
+    if (scores[activePlayer] > 100) {
       isNewGame = false;
       document.getElementById("name-" + activePlayer).textContent = "winner!!!";
       document
